@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1.1 (Python 3.13.0 on win32)" generated="2024-10-23T18:14:43.190425" rpa="false" schemaversion="5">
+<suite id="s1" name="Tests" source="C:\Users\eurit\AutomationRB\tests">
+<suite id="s1-s1" name="testDemo1" source="C:\Users\eurit\AutomationRB\tests\testDemo1.robot">
+<test id="s1-s1-t1" name="validate UnSuccessful Login" line="13">
+<kw name="open the browser with the Mortgage payment url">
+<kw name="Open Browser">
+<msg time="2024-10-23T18:14:43.282598" level="FAIL">No keyword with name 'Open Browser' found.</msg>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<status status="FAIL" start="2024-10-23T18:14:43.282507" elapsed="0.000196">No keyword with name 'Open Browser' found.</status>
+</kw>
+<status status="FAIL" start="2024-10-23T18:14:43.279498" elapsed="0.003497">No keyword with name 'Open Browser' found.</status>
+</kw>
+<kw name="Fill the login form">
+<status status="NOT RUN" start="2024-10-23T18:14:43.283466" elapsed="0.000057"/>
+</kw>
+<kw name="wait until it checks and display the error message">
+<status status="NOT RUN" start="2024-10-23T18:14:43.283825" elapsed="0.000035"/>
+</kw>
+<kw name="verify the error message is correct">
+<status status="NOT RUN" start="2024-10-23T18:14:43.284134" elapsed="0.000035"/>
+</kw>
+<kw name="Close Browser" type="TEARDOWN">
+<msg time="2024-10-23T18:14:43.285896" level="FAIL">No keyword with name 'Close Browser' found.</msg>
+<status status="FAIL" start="2024-10-23T18:14:43.285819" elapsed="0.000152">No keyword with name 'Close Browser' found.</status>
+</kw>
+<status status="FAIL" start="2024-10-23T18:14:43.278083" elapsed="0.008135">No keyword with name 'Open Browser' found.
+
+Also teardown failed:
+No keyword with name 'Close Browser' found.</status>
+</test>
+<doc>To validate de Login form</doc>
+<status status="FAIL" start="2024-10-23T18:14:43.269234" elapsed="0.018176"/>
+</suite>
+<suite id="s1-s2" name="testDemo2" source="C:\Users\eurit\AutomationRB\tests\testDemo2.robot">
+<test id="s1-s2-t1" name="Validate UnSuccessful Login" line="15">
+<kw name="open the browser with the Mortgage payment url" owner="Generic" type="SETUP">
+<kw name="Open Browser">
+<msg time="2024-10-23T18:14:43.327395" level="FAIL">No keyword with name 'Open Browser' found.</msg>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<status status="FAIL" start="2024-10-23T18:14:43.327314" elapsed="0.000188">No keyword with name 'Open Browser' found.</status>
+</kw>
+<status status="FAIL" start="2024-10-23T18:14:43.320903" elapsed="0.006868">No keyword with name 'Open Browser' found.</status>
+</kw>
+<tag>SMOKE</tag>
+<status status="FAIL" start="2024-10-23T18:14:43.319749" elapsed="0.008486">Setup failed:
+No keyword with name 'Open Browser' found.</status>
+</test>
+<test id="s1-s2-t2" name="Validate Cards display in the shopping Page" line="21">
+<kw name="open the browser with the Mortgage payment url" owner="Generic" type="SETUP">
+<kw name="Open Browser">
+<msg time="2024-10-23T18:14:43.332031" level="FAIL">No keyword with name 'Open Browser' found.</msg>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<status status="FAIL" start="2024-10-23T18:14:43.331978" elapsed="0.000127">No keyword with name 'Open Browser' found.</status>
+</kw>
+<status status="FAIL" start="2024-10-23T18:14:43.329939" elapsed="0.002357">No keyword with name 'Open Browser' found.</status>
+</kw>
+<status status="FAIL" start="2024-10-23T18:14:43.329135" elapsed="0.003531">Setup failed:
+No keyword with name 'Open Browser' found.</status>
+</test>
+<test id="s1-s2-t3" name="Select the Form and navigate to Child window" line="28">
+<kw name="open the browser with the Mortgage payment url" owner="Generic" type="SETUP">
+<kw name="Open Browser">
+<msg time="2024-10-23T18:14:43.336968" level="FAIL">No keyword with name 'Open Browser' found.</msg>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<status status="FAIL" start="2024-10-23T18:14:43.336835" elapsed="0.000323">No keyword with name 'Open Browser' found.</status>
+</kw>
+<status status="FAIL" start="2024-10-23T18:14:43.334369" elapsed="0.003098">No keyword with name 'Open Browser' found.</status>
+</kw>
+<status status="FAIL" start="2024-10-23T18:14:43.333618" elapsed="0.004565">Setup failed:
+No keyword with name 'Open Browser' found.</status>
+</test>
+<doc>To validate de Login form</doc>
+<status status="FAIL" start="2024-10-23T18:14:43.289800" elapsed="0.050329"/>
+</suite>
+<suite id="s1-s3" name="testDemo3" source="C:\Users\eurit\AutomationRB\tests\testDemo3.robot">
+<test id="s1-s3-t1" name="Validate Child window Functionality" line="16">
+<kw name="open the browser with the Mortgage payment url" owner="Generic" type="SETUP">
+<kw name="Open Browser">
+<msg time="2024-10-23T18:14:43.370094" level="FAIL">No keyword with name 'Open Browser' found.</msg>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<status status="FAIL" start="2024-10-23T18:14:43.370001" elapsed="0.000177">No keyword with name 'Open Browser' found.</status>
+</kw>
+<status status="FAIL" start="2024-10-23T18:14:43.367651" elapsed="0.002754">No keyword with name 'Open Browser' found.</status>
+</kw>
+<tag>SMOKE</tag>
+<status status="FAIL" start="2024-10-23T18:14:43.366903" elapsed="0.003895">Setup failed:
+No keyword with name 'Open Browser' found.</status>
+</test>
+<doc>To validate de Login form</doc>
+<status status="FAIL" start="2024-10-23T18:14:43.341650" elapsed="0.031164"/>
+</suite>
+<suite id="s1-s4" name="testDemo4" source="C:\Users\eurit\AutomationRB\tests\testDemo4.robot">
+<test id="s1-s4-t1" name="Invalid username" line="14">
+<kw name="validate UnSuccessful Login">
+<kw name="open the browser with the Mortgage payment url">
+<kw name="Open Browser">
+<msg time="2024-10-23T18:14:43.385700" level="FAIL">No keyword with name 'Open Browser' found.</msg>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<status status="FAIL" start="2024-10-23T18:14:43.385589" elapsed="0.000243">No keyword with name 'Open Browser' found.</status>
+</kw>
+<status status="FAIL" start="2024-10-23T18:14:43.381882" elapsed="0.004276">No keyword with name 'Open Browser' found.</status>
+</kw>
+<kw name="Fill the login form">
+<arg>${username}</arg>
+<arg>${password}</arg>
+<status status="NOT RUN" start="2024-10-23T18:14:43.386574" elapsed="0.000062"/>
+</kw>
+<kw name="wait until it checks and display the error message">
+<status status="NOT RUN" start="2024-10-23T18:14:43.387075" elapsed="0.000108"/>
+</kw>
+<kw name="verify the error message is correct">
+<status status="NOT RUN" start="2024-10-23T18:14:43.387599" elapsed="0.000064"/>
+</kw>
+<arg>dportugal</arg>
+<arg>learning</arg>
+<status status="FAIL" start="2024-10-23T18:14:43.381364" elapsed="0.007922">No keyword with name 'Open Browser' found.</status>
+</kw>
+<kw name="Close Browser" type="TEARDOWN">
+<msg time="2024-10-23T18:14:43.392654" level="FAIL">No keyword with name 'Close Browser' found.</msg>
+<status status="FAIL" start="2024-10-23T18:14:43.392553" elapsed="0.000191">No keyword with name 'Close Browser' found.</status>
+</kw>
+<status status="FAIL" start="2024-10-23T18:14:43.380637" elapsed="0.012419">No keyword with name 'Open Browser' found.
+
+Also teardown failed:
+No keyword with name 'Close Browser' found.</status>
+</test>
+<test id="s1-s4-t2" name="Invalid password" line="15">
+<kw name="validate UnSuccessful Login">
+<kw name="open the browser with the Mortgage payment url">
+<kw name="Open Browser">
+<msg time="2024-10-23T18:14:43.397038" level="FAIL">No keyword with name 'Open Browser' found.</msg>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<status status="FAIL" start="2024-10-23T18:14:43.396980" elapsed="0.000140">No keyword with name 'Open Browser' found.</status>
+</kw>
+<status status="FAIL" start="2024-10-23T18:14:43.395259" elapsed="0.002074">No keyword with name 'Open Browser' found.</status>
+</kw>
+<kw name="Fill the login form">
+<arg>${username}</arg>
+<arg>${password}</arg>
+<status status="NOT RUN" start="2024-10-23T18:14:43.397587" elapsed="0.000037"/>
+</kw>
+<kw name="wait until it checks and display the error message">
+<status status="NOT RUN" start="2024-10-23T18:14:43.397811" elapsed="0.000032"/>
+</kw>
+<kw name="verify the error message is correct">
+<status status="NOT RUN" start="2024-10-23T18:14:43.398255" elapsed="0.000040"/>
+</kw>
+<arg>rahulshettyacademy</arg>
+<arg>loading</arg>
+<status status="FAIL" start="2024-10-23T18:14:43.394562" elapsed="0.004144">No keyword with name 'Open Browser' found.</status>
+</kw>
+<kw name="Close Browser" type="TEARDOWN">
+<msg time="2024-10-23T18:14:43.400533" level="FAIL">No keyword with name 'Close Browser' found.</msg>
+<status status="FAIL" start="2024-10-23T18:14:43.400468" elapsed="0.000128">No keyword with name 'Close Browser' found.</status>
+</kw>
+<status status="FAIL" start="2024-10-23T18:14:43.393925" elapsed="0.006922">No keyword with name 'Open Browser' found.
+
+Also teardown failed:
+No keyword with name 'Close Browser' found.</status>
+</test>
+<test id="s1-s4-t3" name="Special characters" line="16">
+<kw name="validate UnSuccessful Login">
+<kw name="open the browser with the Mortgage payment url">
+<kw name="Open Browser">
+<msg time="2024-10-23T18:14:43.407212" level="FAIL">No keyword with name 'Open Browser' found.</msg>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<status status="FAIL" start="2024-10-23T18:14:43.407102" elapsed="0.000237">No keyword with name 'Open Browser' found.</status>
+</kw>
+<status status="FAIL" start="2024-10-23T18:14:43.403121" elapsed="0.004508">No keyword with name 'Open Browser' found.</status>
+</kw>
+<kw name="Fill the login form">
+<arg>${username}</arg>
+<arg>${password}</arg>
+<status status="NOT RUN" start="2024-10-23T18:14:43.408350" elapsed="0.000105"/>
+</kw>
+<kw name="wait until it checks and display the error message">
+<status status="NOT RUN" start="2024-10-23T18:14:43.408913" elapsed="0.000057"/>
+</kw>
+<kw name="verify the error message is correct">
+<status status="NOT RUN" start="2024-10-23T18:14:43.409184" elapsed="0.000060"/>
+</kw>
+<arg>@#$</arg>
+<arg>learning</arg>
+<status status="FAIL" start="2024-10-23T18:14:43.402331" elapsed="0.007112">No keyword with name 'Open Browser' found.</status>
+</kw>
+<kw name="Close Browser" type="TEARDOWN">
+<msg time="2024-10-23T18:14:43.411376" level="FAIL">No keyword with name 'Close Browser' found.</msg>
+<status status="FAIL" start="2024-10-23T18:14:43.411311" elapsed="0.000136">No keyword with name 'Close Browser' found.</status>
+</kw>
+<status status="FAIL" start="2024-10-23T18:14:43.401539" elapsed="0.010148">No keyword with name 'Open Browser' found.
+
+Also teardown failed:
+No keyword with name 'Close Browser' found.</status>
+</test>
+<doc>To validate de Login form</doc>
+<status status="FAIL" start="2024-10-23T18:14:43.374257" elapsed="0.038258"/>
+</suite>
+<suite id="s1-s5" name="testDemo5" source="C:\Users\eurit\AutomationRB\tests\testDemo5.robot">
+<test id="s1-s5-t1" name="Login with user ${username} and password ${password}" line="15">
+<kw name="validate UnSuccessful Login">
+<kw name="open the browser with the Mortgage payment url">
+<kw name="Open Browser">
+<msg time="2024-10-23T18:14:43.431564" level="FAIL">No keyword with name 'Open Browser' found.</msg>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<status status="FAIL" start="2024-10-23T18:14:43.431498" elapsed="0.000146">No keyword with name 'Open Browser' found.</status>
+</kw>
+<status status="FAIL" start="2024-10-23T18:14:43.429957" elapsed="0.001900">No keyword with name 'Open Browser' found.</status>
+</kw>
+<kw name="Fill the login form">
+<arg>${username}</arg>
+<arg>${password}</arg>
+<status status="NOT RUN" start="2024-10-23T18:14:43.432117" elapsed="0.000038"/>
+</kw>
+<kw name="wait until it checks and display the error message">
+<status status="NOT RUN" start="2024-10-23T18:14:43.432350" elapsed="0.000032"/>
+</kw>
+<kw name="verify the error message is correct">
+<status status="NOT RUN" start="2024-10-23T18:14:43.432532" elapsed="0.000031"/>
+</kw>
+<arg>xyc</arg>
+<arg>123456</arg>
+<status status="FAIL" start="2024-10-23T18:14:43.429454" elapsed="0.003234">No keyword with name 'Open Browser' found.</status>
+</kw>
+<kw name="Close Browser" type="TEARDOWN">
+<msg time="2024-10-23T18:14:43.434398" level="FAIL">No keyword with name 'Close Browser' found.</msg>
+<status status="FAIL" start="2024-10-23T18:14:43.434343" elapsed="0.000120">No keyword with name 'Close Browser' found.</status>
+</kw>
+<status status="FAIL" start="2024-10-23T18:14:43.428537" elapsed="0.006155">No keyword with name 'Open Browser' found.
+
+Also teardown failed:
+No keyword with name 'Close Browser' found.</status>
+</test>
+<doc>To validate de Login form</doc>
+<status status="FAIL" start="2024-10-23T18:14:43.413444" elapsed="0.027587"/>
+</suite>
+<suite id="s1-s6" name="testDemo6" source="C:\Users\eurit\AutomationRB\tests\testDemo6.robot">
+<kw name="Close All Browsers" type="SETUP">
+<msg time="2024-10-23T18:14:43.494083" level="FAIL">No keyword with name 'Close All Browsers' found.</msg>
+<status status="FAIL" start="2024-10-23T18:14:43.494010" elapsed="0.000162">No keyword with name 'Close All Browsers' found.</status>
+</kw>
+<test id="s1-s6-t1" name="Validate UnSuccessful Login" line="23">
+<tag>REGRESSION</tag>
+<tag>SMOKE</tag>
+<status status="FAIL" start="2024-10-23T18:14:43.494321" elapsed="0.000614">Parent suite setup failed:
+No keyword with name 'Close All Browsers' found.</status>
+</test>
+<test id="s1-s6-t2" name="End to end ecommerce Product validation" line="29">
+<tag>REGRESSION</tag>
+<status status="FAIL" start="2024-10-23T18:14:43.495923" elapsed="0.000623">Parent suite setup failed:
+No keyword with name 'Close All Browsers' found.</status>
+</test>
+<test id="s1-s6-t3" name="Select the Form and navigate to Child window" line="41">
+<status status="FAIL" start="2024-10-23T18:14:43.497352" elapsed="0.000505">Parent suite setup failed:
+No keyword with name 'Close All Browsers' found.</status>
+</test>
+<doc>To validate de Login form</doc>
+<status status="FAIL" start="2024-10-23T18:14:43.446355" elapsed="0.052359">Suite setup failed:
+No keyword with name 'Close All Browsers' found.</status>
+</suite>
+<suite id="s1-s7" name="testDemo7" source="C:\Users\eurit\AutomationRB\tests\testDemo7.robot">
+<test id="s1-s7-t1" name="Play around with dicionary" line="15">
+<kw name="Create Dictionary" owner="BuiltIn">
+<msg time="2024-10-23T18:14:44.357960" level="INFO">&amp;{data} = { name=rahulshetty | course=robot | website=rahulshettyacademy.com }</msg>
+<var>&amp;{data}</var>
+<arg>name=rahulshetty</arg>
+<arg>course=robot</arg>
+<arg>website=rahulshettyacademy.com</arg>
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<status status="PASS" start="2024-10-23T18:14:44.357174" elapsed="0.000852"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-10-23T18:14:44.358883" level="INFO">{'name': 'rahulshetty', 'course': 'robot', 'website': 'rahulshettyacademy.com'}</msg>
+<arg>${data}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-10-23T18:14:44.358567" elapsed="0.000415"/>
+</kw>
+<kw name="Dictionary Should Contain Key" owner="Collections">
+<arg>${data}</arg>
+<arg>name</arg>
+<doc>Fails if ``key`` is not found from ``dictionary``.</doc>
+<status status="PASS" start="2024-10-23T18:14:44.359417" elapsed="0.000386"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-10-23T18:14:44.360433" level="INFO">rahulshetty</msg>
+<arg>${data}[name]</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-10-23T18:14:44.360193" elapsed="0.000315"/>
+</kw>
+<kw name="Get From Dictionary" owner="Collections">
+<msg time="2024-10-23T18:14:44.361228" level="INFO">${url} = rahulshettyacademy.com</msg>
+<var>${url}</var>
+<arg>${data}</arg>
+<arg>website</arg>
+<doc>Returns a value from the given ``dictionary`` based on the given ``key``.</doc>
+<status status="PASS" start="2024-10-23T18:14:44.360885" elapsed="0.000387"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-10-23T18:14:44.362089" level="INFO">rahulshettyacademy.com</msg>
+<arg>${url}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-10-23T18:14:44.361843" elapsed="0.000320"/>
+</kw>
+<status status="PASS" start="2024-10-23T18:14:44.354363" elapsed="0.008460"/>
+</test>
+<test id="s1-s7-t2" name="Add Book into Library DataBase" line="24">
+<kw name="Create Dictionary" owner="BuiltIn">
+<msg time="2024-10-23T18:14:44.365071" level="INFO">&amp;{req_body} = { name=RobotFramework | isbn=9476304 | aisle=324535 | author=rahulshetty }</msg>
+<var>&amp;{req_body}</var>
+<arg>name=${book_name}</arg>
+<arg>isbn=9476304</arg>
+<arg>aisle=324535</arg>
+<arg>author=rahulshetty</arg>
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<status status="PASS" start="2024-10-23T18:14:44.364539" elapsed="0.000585"/>
+</kw>
+<kw name="POST" owner="RequestsLibrary">
+<msg time="2024-10-23T18:14:44.792977" level="INFO">POST Request : url=https://rahulshettyacademy.com/Library/Addbook.php 
+ path_url=/Library/Addbook.php 
+ headers={'User-Agent': 'python-requests/2.32.3', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '89', 'Content-Type': 'application/json'} 
+ body=b'{"name": "RobotFramework", "isbn": "9476304", "aisle": "324535", "author": "rahulshetty"}' 
+ </msg>
+<msg time="2024-10-23T18:14:44.793205" level="INFO">POST Response : url=https://rahulshettyacademy.com/Library/Addbook.php 
+ status=200, reason=OK 
+ headers={'Date': 'Wed, 23 Oct 2024 17:14:44 GMT', 'Server': 'Apache/2.4.52 (Ubuntu)', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'POST', 'Access-Control-Max-Age': '3600', 'Access-Control-Allow-Headers': 'Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With', 'Content-Length': '49', 'Keep-Alive': 'timeout=5, max=100', 'Connection': 'Keep-Alive', 'Content-Type': 'application/json;charset=UTF-8'} 
+ body={"Msg":"successfully added","ID":"9476304324535"} 
+ </msg>
+<msg time="2024-10-23T18:14:44.793440" level="INFO">${response} = &lt;Response [200]&gt;</msg>
+<var>${response}</var>
+<arg>${base_url}/Library/Addbook.php</arg>
+<arg>json=${req_body}</arg>
+<arg>expected_status=200</arg>
+<doc>Sends a POST request.</doc>
+<status status="PASS" start="2024-10-23T18:14:44.365638" elapsed="0.427853"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-10-23T18:14:44.795965" level="INFO">{'Msg': 'successfully added', 'ID': '9476304324535'}</msg>
+<arg>${response.json()}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-10-23T18:14:44.794319" elapsed="0.001835"/>
+</kw>
+<kw name="Dictionary Should Contain Key" owner="Collections">
+<arg>${response.json()}</arg>
+<arg>ID</arg>
+<doc>Fails if ``key`` is not found from ``dictionary``.</doc>
+<status status="PASS" start="2024-10-23T18:14:44.796744" elapsed="0.001036"/>
+</kw>
+<kw name="Get From Dictionary" owner="Collections">
+<msg time="2024-10-23T18:14:44.801029" level="INFO">${book_id} = 9476304324535</msg>
+<var>${book_id}</var>
+<arg>${response.json()}</arg>
+<arg>ID</arg>
+<doc>Returns a value from the given ``dictionary`` based on the given ``key``.</doc>
+<status status="PASS" start="2024-10-23T18:14:44.799764" elapsed="0.001322"/>
+</kw>
+<kw name="Set Global Variable" owner="BuiltIn">
+<msg time="2024-10-23T18:14:44.802217" level="INFO">${book_id} = 9476304324535</msg>
+<arg>${book_id}</arg>
+<doc>Makes a variable available globally in all tests and suites.</doc>
+<status status="PASS" start="2024-10-23T18:14:44.801729" elapsed="0.000587"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-10-23T18:14:44.803274" level="INFO">9476304324535</msg>
+<arg>${book_id}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-10-23T18:14:44.802889" elapsed="0.000524"/>
+</kw>
+<kw name="Should Be Equal As Strings" owner="BuiltIn">
+<arg>successfully added</arg>
+<arg>${response.json()}[Msg]</arg>
+<doc>Fails if objects are unequal after converting them to strings.</doc>
+<status status="PASS" start="2024-10-23T18:14:44.804089" elapsed="0.001653"/>
+</kw>
+<kw name="Status Should Be" owner="RequestsLibrary">
+<arg>200</arg>
+<arg>${response}</arg>
+<doc>Fails if response status code is different than the expected.</doc>
+<status status="PASS" start="2024-10-23T18:14:44.806345" elapsed="0.000635"/>
+</kw>
+<status status="PASS" start="2024-10-23T18:14:44.363825" elapsed="0.443912"/>
+</test>
+<test id="s1-s7-t3" name="GET the Book Detais which got added" line="35">
+<kw name="GET" owner="RequestsLibrary">
+<msg time="2024-10-23T18:14:45.192662" level="INFO">GET Request : url=https://rahulshettyacademy.com/Library/GetBook.php?ID=9476304324535 
+ path_url=/Library/GetBook.php?ID=9476304324535 
+ headers={'User-Agent': 'python-requests/2.32.3', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'} 
+ body=None 
+ </msg>
+<msg time="2024-10-23T18:14:45.192823" level="INFO">GET Response : url=https://rahulshettyacademy.com/Library/GetBook.php?ID=9476304324535 
+ status=200, reason=OK 
+ headers={'Date': 'Wed, 23 Oct 2024 17:14:44 GMT', 'Server': 'Apache/2.4.52 (Ubuntu)', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'POST', 'Access-Control-Max-Age': '3600', 'Access-Control-Allow-Headers': 'Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With', 'Content-Length': '89', 'Keep-Alive': 'timeout=5, max=100', 'Connection': 'Keep-Alive', 'Content-Type': 'application/json;charset=UTF-8'} 
+ body=[{"book_name":"RobotFramework","isbn":"9476304","aisle":"324535","author":"rahulshetty"}] 
+ </msg>
+<msg time="2024-10-23T18:14:45.193443" level="INFO">${get_response} = &lt;Response [200]&gt;</msg>
+<var>${get_response}</var>
+<arg>${base_url}/Library/GetBook.php</arg>
+<arg>params=ID=${book_id}</arg>
+<arg>expected_status=200</arg>
+<doc>Sends a GET request.</doc>
+<status status="PASS" start="2024-10-23T18:14:44.810669" elapsed="0.382837"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-10-23T18:14:45.195853" level="INFO">[{'book_name': 'RobotFramework', 'isbn': '9476304', 'aisle': '324535', 'author': 'rahulshetty'}]</msg>
+<arg>${get_response.json()}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-10-23T18:14:45.194218" elapsed="0.001749"/>
+</kw>
+<kw name="Should Be Equal As Strings" owner="BuiltIn">
+<arg>${book_name}</arg>
+<arg>${get_response.json()}[0][book_name]</arg>
+<doc>Fails if objects are unequal after converting them to strings.</doc>
+<status status="PASS" start="2024-10-23T18:14:45.196563" elapsed="0.001100"/>
+</kw>
+<status status="PASS" start="2024-10-23T18:14:44.809361" elapsed="0.388739"/>
+</test>
+<test id="s1-s7-t4" name="Delete the Book from databaser" line="40">
+<kw name="Create Dictionary" owner="BuiltIn">
+<msg time="2024-10-23T18:14:45.201125" level="INFO">&amp;{delete_req} = { ID=9476304324535 }</msg>
+<var>&amp;{delete_req}</var>
+<arg>ID=${book_id}</arg>
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<status status="PASS" start="2024-10-23T18:14:45.200613" elapsed="0.000569"/>
+</kw>
+<kw name="POST" owner="RequestsLibrary">
+<msg time="2024-10-23T18:14:45.593586" level="INFO">POST Request : url=https://rahulshettyacademy.com/Library/DeleteBook.php 
+ path_url=/Library/DeleteBook.php 
+ headers={'User-Agent': 'python-requests/2.32.3', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '23', 'Content-Type': 'application/json'} 
+ body=b'{"ID": "9476304324535"}' 
+ </msg>
+<msg time="2024-10-23T18:14:45.593815" level="INFO">POST Response : url=https://rahulshettyacademy.com/Library/DeleteBook.php 
+ status=200, reason=OK 
+ headers={'Date': 'Wed, 23 Oct 2024 17:14:45 GMT', 'Server': 'Apache/2.4.52 (Ubuntu)', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'POST', 'Access-Control-Max-Age': '3600', 'Access-Control-Allow-Headers': 'Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With', 'Content-Length': '38', 'Keep-Alive': 'timeout=5, max=100', 'Connection': 'Keep-Alive', 'Content-Type': 'application/json;charset=UTF-8'} 
+ body={"msg":"book is successfully deleted"} 
+ </msg>
+<msg time="2024-10-23T18:14:45.594128" level="INFO">${delete_resp} = &lt;Response [200]&gt;</msg>
+<var>${delete_resp}</var>
+<arg>${base_url}/Library/DeleteBook.php</arg>
+<arg>json=${delete_req}</arg>
+<arg>expected_status=200</arg>
+<doc>Sends a POST request.</doc>
+<status status="PASS" start="2024-10-23T18:14:45.201835" elapsed="0.392515"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-10-23T18:14:45.596744" level="INFO">book is successfully deleted</msg>
+<arg>${delete_resp.json()}[msg]</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-10-23T18:14:45.595124" elapsed="0.001781"/>
+</kw>
+<kw name="Should Be Equal As Strings" owner="BuiltIn">
+<arg>book is successfully deleted</arg>
+<arg>${delete_resp.json()}[msg]</arg>
+<doc>Fails if objects are unequal after converting them to strings.</doc>
+<status status="PASS" start="2024-10-23T18:14:45.597547" elapsed="0.001536"/>
+</kw>
+<status status="PASS" start="2024-10-23T18:14:45.199676" elapsed="0.399945"/>
+</test>
+<doc>To validate de Login form</doc>
+<status status="PASS" start="2024-10-23T18:14:43.499853" elapsed="2.100900"/>
+</suite>
+<status status="FAIL" start="2024-10-23T18:14:43.195048" elapsed="2.407972"/>
+</suite>
+<statistics>
+<total>
+<stat pass="4" fail="12" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="2" skip="0">REGRESSION</stat>
+<stat pass="0" fail="3" skip="0">SMOKE</stat>
+</tag>
+<suite>
+<stat pass="4" fail="12" skip="0" id="s1" name="Tests">Tests</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1" name="testDemo1">Tests.testDemo1</stat>
+<stat pass="0" fail="3" skip="0" id="s1-s2" name="testDemo2">Tests.testDemo2</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s3" name="testDemo3">Tests.testDemo3</stat>
+<stat pass="0" fail="3" skip="0" id="s1-s4" name="testDemo4">Tests.testDemo4</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s5" name="testDemo5">Tests.testDemo5</stat>
+<stat pass="0" fail="3" skip="0" id="s1-s6" name="testDemo6">Tests.testDemo6</stat>
+<stat pass="4" fail="0" skip="0" id="s1-s7" name="testDemo7">Tests.testDemo7</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2024-10-23T18:14:43.276575" level="ERROR">Error in file 'C:\Users\eurit\AutomationRB\tests\testDemo1.robot' on line 3: Importing library 'SeleniumLibrary' failed: ModuleNotFoundError: No module named 'SeleniumLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Users\eurit\AppData\Local\Programs\Python\Python313\Scripts\robot.exe
+  C:\Users\eurit\AppData\Local\Programs\Python\Python313\python313.zip
+  C:\Users\eurit\AppData\Local\Programs\Python\Python313\DLLs
+  C:\Users\eurit\AppData\Local\Programs\Python\Python313\Lib
+  C:\Users\eurit\AppData\Local\Programs\Python\Python313
+  C:\Users\eurit\AppData\Local\Programs\Python\Python313\Lib\site-packages</msg>
+<msg time="2024-10-23T18:14:43.295620" level="ERROR">Error in file 'C:\Users\eurit\AutomationRB\tests\testDemo2.robot' on line 3: Importing library 'SeleniumLibrary' failed: ModuleNotFoundError: No module named 'SeleniumLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Users\eurit\AppData\Local\Programs\Python\Python313\Scripts\robot.exe
+  C:\Users\eurit\AppData\Local\Programs\Python\Python313\python313.zip
+  C:\Users\eurit\AppData\Local\Programs\Python\Python313\DLLs
+  C:\Users\eurit\AppData\Local\Programs\Python\Python313\Lib
+  C:\Users\eurit\AppData\Local\Programs\Python\Python313
+  C:\Users\eurit\AppData\Local\Programs\Python\Python313\Lib\site-packages</msg>
+<msg time="2024-10-23T18:14:43.318342" level="ERROR">Error in file 'C:\Users\eurit\AutomationRB\PO\Generic.robot' on line 6: Importing library 'SeleniumLibrary' failed: ModuleNotFoundError: No module named 'SeleniumLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Users\eurit\AppData\Local\Programs\Python\Python313\Scripts\robot.exe
+  C:\Users\eurit\AppData\Local\Programs\Python\Python313\python313.zip
+  C:\Users\eurit\AppData\Local\Programs\Python\Python313\DLLs
+  C:\Users\eurit\AppData\Local\Programs\Python\Python313\Lib
+  C:\Users\eurit\AppData\Local\Programs\Python\Python313
+  C:\Users\eurit\AppData\Local\Programs\Python\Python313\Lib\site-packages</msg>
+<msg time="2024-10-23T18:14:43.346463" level="ERROR">Error in file 'C:\Users\eurit\AutomationRB\tests\testDemo3.robot' on line 3: Importing library 'SeleniumLibrary' failed: ModuleNotFoundError: No module named 'SeleniumLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Users\eurit\AppData\Local\Programs\Python\Python313\Scripts\robot.exe
+  C:\Users\eurit\AppData\Local\Programs\Python\Python313\python313.zip
+  C:\Users\eurit\AppData\Local\Programs\Python\Python313\DLLs
+  C:\Users\eurit\AppData\Local\Programs\Python\Python313\Lib
+  C:\Users\eurit\AppData\Local\Programs\Python\Python313
+  C:\Users\eurit\AppData\Local\Programs\Python\Python313\Lib\site-packages</msg>
+<msg time="2024-10-23T18:14:43.365397" level="ERROR">Error in file 'C:\Users\eurit\AutomationRB\PO\Generic.robot' on line 6: Importing library 'SeleniumLibrary' failed: ModuleNotFoundError: No module named 'SeleniumLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Users\eurit\AppData\Local\Programs\Python\Python313\Scripts\robot.exe
+  C:\Users\eurit\AppData\Local\Programs\Python\Python313\python313.zip
+  C:\Users\eurit\AppData\Local\Programs\Python\Python313\DLLs
+  C:\Users\eurit\AppData\Local\Programs\Python\Python313\Lib
+  C:\Users\eurit\AppData\Local\Programs\Python\Python313
+  C:\Users\eurit\AppData\Local\Programs\Python\Python313\Lib\site-packages</msg>
+<msg time="2024-10-23T18:14:43.379402" level="ERROR">Error in file 'C:\Users\eurit\AutomationRB\tests\testDemo4.robot' on line 3: Importing library 'SeleniumLibrary' failed: ModuleNotFoundError: No module named 'SeleniumLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Users\eurit\AppData\Local\Programs\Python\Python313\Scripts\robot.exe
+  C:\Users\eurit\AppData\Local\Programs\Python\Python313\python313.zip
+  C:\Users\eurit\AppData\Local\Programs\Python\Python313\DLLs
+  C:\Users\eurit\AppData\Local\Programs\Python\Python313\Lib
+  C:\Users\eurit\AppData\Local\Programs\Python\Python313
+  C:\Users\eurit\AppData\Local\Programs\Python\Python313\Lib\site-packages</msg>
+<msg time="2024-10-23T18:14:43.418406" level="ERROR">Error in file 'C:\Users\eurit\AutomationRB\tests\testDemo5.robot' on line 3: Importing library 'SeleniumLibrary' failed: ModuleNotFoundError: No module named 'SeleniumLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Users\eurit\AppData\Local\Programs\Python\Python313\Scripts\robot.exe
+  C:\Users\eurit\AppData\Local\Programs\Python\Python313\python313.zip
+  C:\Users\eurit\AppData\Local\Programs\Python\Python313\DLLs
+  C:\Users\eurit\AppData\Local\Programs\Python\Python313\Lib
+  C:\Users\eurit\AppData\Local\Programs\Python\Python313
+  C:\Users\eurit\AppData\Local\Programs\Python\Python313\Lib\site-packages</msg>
+<msg time="2024-10-23T18:14:43.422252" level="ERROR">Error in file 'C:\Users\eurit\AutomationRB\tests\testDemo5.robot' on line 4: Importing library 'DataDriver' failed: ModuleNotFoundError: No module named 'DataDriver'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Users\eurit\AppData\Local\Programs\Python\Python313\Scripts\robot.exe
+  C:\Users\eurit\AppData\Local\Programs\Python\Python313\python313.zip
+  C:\Users\eurit\AppData\Local\Programs\Python\Python313\DLLs
+  C:\Users\eurit\AppData\Local\Programs\Python\Python313\Lib
+  C:\Users\eurit\AppData\Local\Programs\Python\Python313
+  C:\Users\eurit\AppData\Local\Programs\Python\Python313\Lib\site-packages</msg>
+<msg time="2024-10-23T18:14:43.452290" level="ERROR">Error in file 'C:\Users\eurit\AutomationRB\tests\testDemo6.robot' on line 3: Importing library 'SeleniumLibrary' failed: ModuleNotFoundError: No module named 'SeleniumLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Users\eurit\AppData\Local\Programs\Python\Python313\Scripts\robot.exe
+  C:\Users\eurit\AppData\Local\Programs\Python\Python313\python313.zip
+  C:\Users\eurit\AppData\Local\Programs\Python\Python313\DLLs
+  C:\Users\eurit\AppData\Local\Programs\Python\Python313\Lib
+  C:\Users\eurit\AppData\Local\Programs\Python\Python313
+  C:\Users\eurit\AppData\Local\Programs\Python\Python313\Lib\site-packages</msg>
+<msg time="2024-10-23T18:14:43.460261" level="ERROR">Error in file 'C:\Users\eurit\AutomationRB\tests\testDemo6.robot' on line 4: Initializing library 'Shop' with no arguments failed: No library 'SeleniumLibrary' found.
+robot.errors.DataError: No library 'SeleniumLibrary' found.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eurit\AutomationRB\customLibraries\Shop.py", line 7, in __init__
+    self.selLib = BuiltIn().get_library_instance("SeleniumLibrary")
+                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eurit\AppData\Local\Programs\Python\Python313\Lib\site-packages\robot\libraries\BuiltIn.py", line 3764, in get_library_instance
+    raise RuntimeError(str(err))
+RuntimeError: No library 'SeleniumLibrary' found.</msg>
+<msg time="2024-10-23T18:14:43.463680" level="ERROR">Error in file 'C:\Users\eurit\AutomationRB\PO\Generic.robot' on line 6: Importing library 'SeleniumLibrary' failed: ModuleNotFoundError: No module named 'SeleniumLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Users\eurit\AppData\Local\Programs\Python\Python313\Scripts\robot.exe
+  C:\Users\eurit\AppData\Local\Programs\Python\Python313\python313.zip
+  C:\Users\eurit\AppData\Local\Programs\Python\Python313\DLLs
+  C:\Users\eurit\AppData\Local\Programs\Python\Python313\Lib
+  C:\Users\eurit\AppData\Local\Programs\Python\Python313
+  C:\Users\eurit\AppData\Local\Programs\Python\Python313\Lib\site-packages</msg>
+<msg time="2024-10-23T18:14:43.468403" level="ERROR">Error in file 'C:\Users\eurit\AutomationRB\PO\landingPage.robot' on line 3: Importing library 'SeleniumLibrary' failed: ModuleNotFoundError: No module named 'SeleniumLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Users\eurit\AppData\Local\Programs\Python\Python313\Scripts\robot.exe
+  C:\Users\eurit\AppData\Local\Programs\Python\Python313\python313.zip
+  C:\Users\eurit\AppData\Local\Programs\Python\Python313\DLLs
+  C:\Users\eurit\AppData\Local\Programs\Python\Python313\Lib
+  C:\Users\eurit\AppData\Local\Programs\Python\Python313
+  C:\Users\eurit\AppData\Local\Programs\Python\Python313\Lib\site-packages</msg>
+<msg time="2024-10-23T18:14:43.475864" level="ERROR">Error in file 'C:\Users\eurit\AutomationRB\PO\ShopPage.robot' on line 3: Importing library 'SeleniumLibrary' failed: ModuleNotFoundError: No module named 'SeleniumLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Users\eurit\AppData\Local\Programs\Python\Python313\Scripts\robot.exe
+  C:\Users\eurit\AppData\Local\Programs\Python\Python313\python313.zip
+  C:\Users\eurit\AppData\Local\Programs\Python\Python313\DLLs
+  C:\Users\eurit\AppData\Local\Programs\Python\Python313\Lib
+  C:\Users\eurit\AppData\Local\Programs\Python\Python313
+  C:\Users\eurit\AppData\Local\Programs\Python\Python313\Lib\site-packages</msg>
+<msg time="2024-10-23T18:14:43.479898" level="ERROR">Error in file 'C:\Users\eurit\AutomationRB\PO\CheckoutPage.robot' on line 3: Importing library 'SeleniumLibrary' failed: ModuleNotFoundError: No module named 'SeleniumLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Users\eurit\AppData\Local\Programs\Python\Python313\Scripts\robot.exe
+  C:\Users\eurit\AppData\Local\Programs\Python\Python313\python313.zip
+  C:\Users\eurit\AppData\Local\Programs\Python\Python313\DLLs
+  C:\Users\eurit\AppData\Local\Programs\Python\Python313\Lib
+  C:\Users\eurit\AppData\Local\Programs\Python\Python313
+  C:\Users\eurit\AppData\Local\Programs\Python\Python313\Lib\site-packages</msg>
+<msg time="2024-10-23T18:14:43.487339" level="ERROR">Error in file 'C:\Users\eurit\AutomationRB\PO\ConfirmationPage.robot' on line 3: Importing library 'SeleniumLibrary' failed: ModuleNotFoundError: No module named 'SeleniumLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Users\eurit\AppData\Local\Programs\Python\Python313\Scripts\robot.exe
+  C:\Users\eurit\AppData\Local\Programs\Python\Python313\python313.zip
+  C:\Users\eurit\AppData\Local\Programs\Python\Python313\DLLs
+  C:\Users\eurit\AppData\Local\Programs\Python\Python313\Lib
+  C:\Users\eurit\AppData\Local\Programs\Python\Python313
+  C:\Users\eurit\AppData\Local\Programs\Python\Python313\Lib\site-packages</msg>
+<msg time="2024-10-23T18:14:43.507162" level="ERROR">Error in file 'C:\Users\eurit\AutomationRB\tests\testDemo7.robot' on line 3: Importing library 'SeleniumLibrary' failed: ModuleNotFoundError: No module named 'SeleniumLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Users\eurit\AppData\Local\Programs\Python\Python313\Scripts\robot.exe
+  C:\Users\eurit\AppData\Local\Programs\Python\Python313\python313.zip
+  C:\Users\eurit\AppData\Local\Programs\Python\Python313\DLLs
+  C:\Users\eurit\AppData\Local\Programs\Python\Python313\Lib
+  C:\Users\eurit\AppData\Local\Programs\Python\Python313
+  C:\Users\eurit\AppData\Local\Programs\Python\Python313\Lib\site-packages</msg>
+</errors>
+</robot>
